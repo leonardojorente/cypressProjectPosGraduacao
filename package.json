@@ -8,6 +8,6 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:run:report": "cypress run --spec cypress/e2e/automation-exercise.cy.js --browser chrome --headless --reporter cypress-mochawesome-reporter"
+    "cypress-ci-test": "cypress run --spec cypress/e2e/automation-exercise.cy.js --browser chrome --headless --reporter cypress-mochawesome-reporter"
   }
 }
