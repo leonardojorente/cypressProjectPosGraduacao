@@ -23,7 +23,7 @@ jobs:
       - name: Cypress run cypress tests
         uses: cypress-io/github-action@v6
         with:
-          command: npm run cypress-ci-test || true
+          command: npm run testes-trabalho-final || true
 
       # upload html report results
       - uses: actions/upload-artifact@v4
